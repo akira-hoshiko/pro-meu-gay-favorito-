@@ -1,63 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-
-    /* FUNDO PRETO */
-    background-color: #000;
-
-    /* ESTRELAS (camadas diferentes) */
-    background-image:
-        radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.8), transparent),
-        radial-gradient(1.5px 1.5px at 100px 80px, rgba(255,255,255,0.6), transparent),
-        radial-gradient(1px 1px at 200px 150px, rgba(255,255,255,0.5), transparent),
-        radial-gradient(2px 2px at 300px 200px, rgba(255,255,255,0.7), transparent),
-        radial-gradient(1.5px 1.5px at 400px 50px, rgba(255,255,255,0.6), transparent);
-
-    background-size: 500px 500px;
-
-    /* ANIMAÇÃO DO CÉU */
-    animation: starsMove 80s linear infinite;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  background-image: radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.8), transparent),
+                    radial-gradient(11.5px 1.5px at 100px 80px, rgba(255,255,255,0.6), transparent),
+                    radial-gradient(1px 1px at 200px 150px, rgba(255,255,255,0.5), transparent),
+                    radial-gradient(2px 2px at 300px 200px, rgba(255,255,255,0.7), transparent),
+                    radial-gradient(1.5px 1.5px at 400px 50px, rgba(255,255,255,0.6), transparent);
+  background-size: 1000px 1000px; /* Aumentei o tamanho */
+  animation: starsMove 80s linear infinite;
 }
 
-/* CAIXA DO TEXTO */
 .pagina {
-    width: 70%;
-    max-width: 800px;
-    height: 70%;
-    padding: 30px;
-
-    /* GRADIENTE ESCURO (ROXO + AZUL NOTURNO) */
-    background: linear-gradient(270deg, #2e0057, #0a0f2c, #020617);
-    background-size: 600% 600%;
-
-    animation: gradientMove 12s ease infinite;
-
-    color: white;
-    border-radius: 15px;
-
-    /* GLOW SUAVE */
-    box-shadow: 
-        0 0 30px rgba(75, 0, 130, 0.6),
-        0 0 60px rgba(10, 15, 44, 0.8);
-
-    font-size: 1.2em;
-    overflow-y: auto;
-    line-height: 1.5em;
-}
-
-/* MOVIMENTO DAS ESTRELAS */
-@keyframes starsMove {
-    from { background-position: 0 0; }
-    to { background-position: -500px 500px; }
-}
-
-/* MOVIMENTO DO GRADIENTE */
-@keyframes gradientMove {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
+  width: 70%;
+  max-width: 800px;
+  height: 70%;
+  padding: 30px;
+  background: linear-gradient(270deg, #2e0057, #0a0f2c, #020617);
+  background-size: 600% 600%;
+  animation: gradientMove 12s ease infinite;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(75, 0, 130, 0.6), 0 0 60px rgba(10, 15,
