@@ -7,11 +7,11 @@ body {
   margin: 0;
   background-color: #000;
   background-image: radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.8), transparent),
-                    radial-gradient(11.5px 1.5px at 100px 80px, rgba(255,255,255,0.6), transparent),
+                    radial-gradient(1.5px 1.5px at 100px 80px, rgba(255,255,255,0.6), transparent),
                     radial-gradient(1px 1px at 200px 150px, rgba(255,255,255,0.5), transparent),
                     radial-gradient(2px 2px at 300px 200px, rgba(255,255,255,0.7), transparent),
                     radial-gradient(1.5px 1.5px at 400px 50px, rgba(255,255,255,0.6), transparent);
-  background-size: 1000px 1000px; /* Aumentei o tamanho */
+  background-size: 2000px 2000px;
   animation: starsMove 80s linear infinite;
 }
 
@@ -21,8 +21,11 @@ body {
   height: 70%;
   padding: 30px;
   background: linear-gradient(270deg, #2e0057, #0a0f2c, #020617);
-  background-size: 600% 600%;
+  background-size: 200% 200%;
   animation: gradientMove 12s ease infinite;
   color: white;
   border-radius: 15px;
-  box-shadow: 0 0 30px rgba(75, 0, 130, 0.6), 0 0 60px rgba(10, 15,
+  box-shadow: 0 0 30px rgba(75, 0, 130, 0.6), 0 0 60px rgba(10, 15, 44, 0.8);
+  font-size: 11.2em;
+  overflow-y: auto;
+  line-height
