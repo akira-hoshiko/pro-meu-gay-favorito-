@@ -20,8 +20,9 @@ body {
   max-width: 800px;
   height: 70%;
   padding: 30px;
-  background: radial-gradient(circle at 30% 30%, rgba(75, 0, 130, 0.4), transparent),
-            linear-gradient(270deg, #1a0033, #050816, #000000);
+  background: 
+  radial-gradient(circle at 30% 30%, rgba(90, 0, 150, 0.5), transparent),
+  linear-gradient(270deg, #0a0f2c, #14002e, #02040f);
   animation: gradientMove 12s ease infinite;
   color: white;
   border-radius: 15px;
