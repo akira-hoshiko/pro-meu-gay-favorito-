@@ -20,24 +20,10 @@ body {
   max-width: 800px;
   height: 70%;
   padding: 30px;
-  background: linear-gradient(270deg, #4B0082, #0A0F2C);
-  background-size: 200% 200%;
-  animation: gradientMove 12s ease infinite;
+  background-color: #0A0F2C; /* azul escuro */
   color: white;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(75, 0, 130, 0.6), 0 0 60px rgba(10, 15, 44, 0.8);
   font-size: 1.2em;
   overflow-y: auto;
-  line-height: 1.5em;
-}
-
-@keyframes starsMove {
-  from { background-position: 0 0; }
-  to { background-position: -2000px 2000px; }
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+  line-height: 1.5em
