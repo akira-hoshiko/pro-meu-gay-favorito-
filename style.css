@@ -26,7 +26,10 @@ body {
   animation: gradientMove 12s ease infinite;
   color: white;
   border-radius: 15px;
-  box-shadow: 0 0 30px rgba(75, 0, 130, 0.6), 0 0 60px rgba(10, 15, 44, 0.8);
+  box-shadow: 
+  0 0 30px rgba(90, 0, 150, 0.6),
+  0 0 60px rgba(10, 15, 44, 0.9),
+  inset 0 0 20px rgba(0, 0, 0, 0.6);
   font-size: 1.2em;
   overflow-y: auto;
   line-height: 1.5em;
