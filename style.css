@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-color: #000000;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.pagina {
+    width: 70%;
+    max-width: 800px;
+    height: 70%;
+    padding: 30px;
+
+    background: linear-gradient(270deg, #4b0082, #1a237e, #0a1a3f);
+    background-size: 600% 600%;
+    animation: gradientMove 10s ease infinite;
+
+    color: white;
+    border-radius: 10px;
+
+    box-shadow: 0 0 25px rgba(75, 0, 130, 0.6),
+                0 0 40px rgba(10, 26, 63, 0.4);
+
+    font-size: 1.2em;
+    overflow-y: auto;
+    line-height: 1.5em;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
