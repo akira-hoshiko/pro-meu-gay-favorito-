@@ -25,3 +25,8 @@ body {
   animation: gradientMove 12s ease infinite;
   color: white;
   border-radius: 15px
+.pagina {
+  ...
+  background: linear-gradient(270deg, #3B3F54, #0A0F2C);
+  ...
+}
